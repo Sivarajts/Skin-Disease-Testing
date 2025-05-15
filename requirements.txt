@@ -1,8 +1,9 @@
 streamlit
-tensorflow>=2.13
+tensorflow==2.13.0
 numpy
 opencv-python
 openai
 requests
 Pillow
 python-dotenv
+
