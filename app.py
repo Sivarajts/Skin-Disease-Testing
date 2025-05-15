@@ -317,15 +317,15 @@ def download_model():
     else:
         print("Model already exists locally.")
 
-
 def load_model():
     try:
-        download_model_from_drive()
-        model = tf.keras.models.load_model("models/final_model.h5")
+        download_model()  # ensure model is downloaded first
+        model = tf.keras.models.load_model('models/final_model.h5')
         return model
     except Exception as e:
         st.error(f"Error loading model: {str(e)}")
         return None
+
 
 def preprocess_image(image):
     # Resize image to match model's expected input size
