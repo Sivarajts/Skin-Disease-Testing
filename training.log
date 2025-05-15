@@ -1,0 +1,824 @@
+2025-05-13 23:07:16,620 - INFO - Starting model training...
+2025-05-13 23:07:16,620 - INFO - 
+=== Starting Model Training ===
+2025-05-13 23:07:16,646 - INFO - 
+Training on classes: ['clear_skin', 'dermatitis', 'melanoma', 'not_skin_image']
+2025-05-13 23:07:16,646 - INFO - 
+Found existing checkpoint. Resuming training...
+2025-05-13 23:07:16,926 - WARNING - From C:\Users\sivar\AppData\Local\Programs\Python\Python310\lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2025-05-13 23:07:17,319 - WARNING - From C:\Users\sivar\AppData\Local\Programs\Python\Python310\lib\site-packages\keras\src\layers\normalization\batch_normalization.py:979: The name tf.nn.fused_batch_norm is deprecated. Please use tf.compat.v1.nn.fused_batch_norm instead.
+
+2025-05-13 23:07:21,170 - ERROR - 
+Error during training: invalid literal for int() with base 10: 'checkpoint'
+2025-05-13 23:07:21,764 - INFO - Emergency checkpoint saved
+2025-05-13 23:07:21,765 - ERROR - Fatal error: invalid literal for int() with base 10: 'checkpoint'
+2025-05-13 23:08:43,379 - INFO - Starting model training...
+2025-05-13 23:08:43,380 - INFO - 
+=== Starting Model Training ===
+2025-05-13 23:08:43,407 - INFO - 
+Training on classes: ['clear_skin', 'dermatitis', 'melanoma', 'not_skin_image']
+2025-05-13 23:08:43,407 - INFO - 
+Found existing checkpoint. Resuming training...
+2025-05-13 23:08:43,626 - WARNING - From C:\Users\sivar\AppData\Local\Programs\Python\Python310\lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2025-05-13 23:08:43,963 - WARNING - From C:\Users\sivar\AppData\Local\Programs\Python\Python310\lib\site-packages\keras\src\layers\normalization\batch_normalization.py:979: The name tf.nn.fused_batch_norm is deprecated. Please use tf.compat.v1.nn.fused_batch_norm instead.
+
+2025-05-13 23:08:47,627 - ERROR - 
+Error during training: invalid literal for int() with base 10: 'checkpoint'
+2025-05-13 23:08:48,324 - INFO - Emergency checkpoint saved
+2025-05-13 23:08:48,324 - ERROR - Fatal error: invalid literal for int() with base 10: 'checkpoint'
+2025-05-13 23:09:13,401 - INFO - Starting model training...
+2025-05-13 23:09:13,401 - INFO - 
+=== Starting Model Training ===
+2025-05-13 23:09:13,426 - INFO - 
+Training on classes: ['clear_skin', 'dermatitis', 'melanoma', 'not_skin_image']
+2025-05-13 23:09:13,426 - INFO - 
+Found existing checkpoint. Resuming training...
+2025-05-13 23:09:13,729 - WARNING - From C:\Users\sivar\AppData\Local\Programs\Python\Python310\lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2025-05-13 23:09:14,054 - WARNING - From C:\Users\sivar\AppData\Local\Programs\Python\Python310\lib\site-packages\keras\src\layers\normalization\batch_normalization.py:979: The name tf.nn.fused_batch_norm is deprecated. Please use tf.compat.v1.nn.fused_batch_norm instead.
+
+2025-05-13 23:09:17,670 - INFO - Resuming from epoch 0
+2025-05-13 23:09:17,671 - INFO - 
+Setting up data generators...
+2025-05-13 23:09:17,671 - INFO - Loading training data...
+2025-05-13 23:09:18,225 - INFO - Loading validation data...
+2025-05-13 23:09:18,352 - INFO - 
+Dataset Statistics:
+2025-05-13 23:09:18,354 - INFO - Training samples: 17709
+2025-05-13 23:09:18,354 - INFO - Validation samples: 3802
+2025-05-13 23:09:18,838 - INFO - 
+=== Training Started ===
+2025-05-13 23:09:18,839 - INFO - Start time: 2025-05-13 23:09:18
+2025-05-13 23:09:18,840 - INFO - Total epochs: 50
+2025-05-13 23:09:18,840 - INFO - Batch size: 32
+2025-05-13 23:09:18,840 - INFO - Image size: (160, 160)
+2025-05-13 23:09:18,840 - INFO - Expected completion time: 2025-05-14 07:09:18
+2025-05-13 23:09:18,935 - INFO - 
+Epoch 1/50
+2025-05-13 23:09:20,128 - WARNING - From C:\Users\sivar\AppData\Local\Programs\Python\Python310\lib\site-packages\keras\src\utils\tf_utils.py:492: The name tf.ragged.RaggedTensorValue is deprecated. Please use tf.compat.v1.ragged.RaggedTensorValue instead.
+
+2025-05-13 23:14:21,406 - INFO - Auto-saved checkpoint at batch 123
+2025-05-13 23:19:21,581 - INFO - Auto-saved checkpoint at batch 258
+2025-05-13 23:24:23,728 - INFO - Auto-saved checkpoint at batch 389
+2025-05-13 23:29:25,389 - INFO - Auto-saved checkpoint at batch 514
+2025-05-13 23:32:47,086 - INFO - New best model saved with accuracy: 0.5124
+2025-05-13 23:32:47,113 - INFO - 
+Epoch 1 Summary:
+2025-05-13 23:32:47,113 - INFO - Time taken: 1406.5 seconds
+2025-05-13 23:32:47,114 - INFO - Training accuracy: 0.5599
+2025-05-13 23:32:47,114 - INFO - Validation accuracy: 0.5124
+2025-05-13 23:32:47,114 - INFO - Best validation accuracy so far: 0.5124
+2025-05-13 23:32:47,114 - INFO - Estimated time remaining: 19:08:40
+2025-05-13 23:32:47,127 - INFO - Estimated completion time: 2025-05-14 18:41:27
+2025-05-13 23:32:52,720 - INFO - 
+Epoch 2/50
+2025-05-13 23:34:26,322 - INFO - Auto-saved checkpoint at batch 26
+2025-05-13 23:39:27,938 - INFO - Auto-saved checkpoint at batch 147
+2025-05-13 23:44:28,907 - INFO - Auto-saved checkpoint at batch 269
+2025-05-13 23:49:33,728 - INFO - Auto-saved checkpoint at batch 383
+2025-05-13 23:54:32,175 - INFO - Auto-saved checkpoint at batch 503
+2025-05-13 23:57:59,734 - INFO - 
+Epoch 2 Summary:
+2025-05-13 23:57:59,739 - INFO - Time taken: 1507.0 seconds
+2025-05-13 23:57:59,740 - INFO - Training accuracy: 0.6185
+2025-05-13 23:57:59,740 - INFO - Validation accuracy: 0.3632
+2025-05-13 23:57:59,741 - INFO - Best validation accuracy so far: 0.5124
+2025-05-13 23:57:59,741 - INFO - Estimated time remaining: 19:25:25
+2025-05-13 23:57:59,742 - INFO - Estimated completion time: 2025-05-14 19:23:24
+2025-05-13 23:58:04,185 - INFO - 
+Epoch 3/50
+2025-05-13 23:59:32,731 - INFO - Auto-saved checkpoint at batch 28
+2025-05-14 00:04:34,649 - INFO - Auto-saved checkpoint at batch 152
+2025-05-14 00:09:35,760 - INFO - Auto-saved checkpoint at batch 278
+2025-05-14 00:14:36,115 - INFO - Auto-saved checkpoint at batch 403
+2025-05-14 00:19:38,265 - INFO - Auto-saved checkpoint at batch 530
+2025-05-14 00:21:56,565 - INFO - New best model saved with accuracy: 0.5834
+2025-05-14 00:21:56,570 - INFO - 
+Epoch 3 Summary:
+2025-05-14 00:21:56,571 - INFO - Time taken: 1431.4 seconds
+2025-05-14 00:21:56,571 - INFO - Training accuracy: 0.6614
+2025-05-14 00:21:56,571 - INFO - Validation accuracy: 0.5834
+2025-05-14 00:21:56,572 - INFO - Best validation accuracy so far: 0.5834
+2025-05-14 00:21:56,572 - INFO - Estimated time remaining: 18:54:30
+2025-05-14 00:21:56,573 - INFO - Estimated completion time: 2025-05-14 19:16:26
+2025-05-14 00:22:00,112 - INFO - 
+Epoch 4/50
+2025-05-14 00:24:40,144 - INFO - Auto-saved checkpoint at batch 53
+2025-05-14 00:29:39,825 - INFO - Auto-saved checkpoint at batch 177
+2025-05-14 00:34:42,305 - INFO - Auto-saved checkpoint at batch 302
+2025-05-14 00:39:43,240 - INFO - Auto-saved checkpoint at batch 426
+2025-05-14 00:44:44,009 - INFO - Auto-saved checkpoint at batch 550
+2025-05-14 00:46:17,429 - INFO - 
+Epoch 4 Summary:
+2025-05-14 00:46:17,435 - INFO - Time taken: 1457.3 seconds
+2025-05-14 00:46:17,436 - INFO - Training accuracy: 0.6875
+2025-05-14 00:46:17,436 - INFO - Validation accuracy: 0.1983
+2025-05-14 00:46:17,436 - INFO - Best validation accuracy so far: 0.5834
+2025-05-14 00:46:17,436 - INFO - Estimated time remaining: 18:32:05
+2025-05-14 00:46:17,438 - INFO - Estimated completion time: 2025-05-14 19:18:22
+2025-05-14 00:46:22,555 - INFO - 
+Epoch 5/50
+2025-05-14 00:49:44,634 - INFO - Auto-saved checkpoint at batch 75
+2025-05-14 00:54:44,853 - INFO - Auto-saved checkpoint at batch 194
+2025-05-14 00:59:45,212 - INFO - Auto-saved checkpoint at batch 314
+2025-05-14 01:04:47,420 - INFO - Auto-saved checkpoint at batch 435
+2025-05-14 01:11:00,922 - INFO - 
+Epoch 5 Summary:
+2025-05-14 01:11:00,926 - INFO - Time taken: 1478.4 seconds
+2025-05-14 01:11:00,926 - INFO - Training accuracy: 0.7208
+2025-05-14 01:11:00,927 - INFO - Validation accuracy: 0.5405
+2025-05-14 01:11:00,927 - INFO - Best validation accuracy so far: 0.5834
+2025-05-14 01:11:00,928 - INFO - Estimated time remaining: 18:12:05
+2025-05-14 01:11:00,929 - INFO - Estimated completion time: 2025-05-14 19:23:05
+2025-05-14 01:11:05,225 - INFO - 
+Epoch 6/50
+2025-05-14 01:11:22,421 - INFO - Auto-saved checkpoint at batch 0
+2025-05-14 01:16:24,091 - INFO - Auto-saved checkpoint at batch 119
+2025-05-14 01:21:24,168 - INFO - Auto-saved checkpoint at batch 239
+2025-05-14 01:26:26,325 - INFO - Auto-saved checkpoint at batch 365
+2025-05-14 01:31:28,670 - INFO - Auto-saved checkpoint at batch 492
+2025-05-14 01:35:24,104 - INFO - 
+Epoch 6 Summary:
+2025-05-14 01:35:24,108 - INFO - Time taken: 1458.9 seconds
+2025-05-14 01:35:24,108 - INFO - Training accuracy: 0.7412
+2025-05-14 01:35:24,109 - INFO - Validation accuracy: 0.4842
+2025-05-14 01:35:24,109 - INFO - Best validation accuracy so far: 0.5834
+2025-05-14 01:35:24,109 - INFO - Estimated time remaining: 17:48:09
+2025-05-14 01:35:24,111 - INFO - Estimated completion time: 2025-05-14 19:23:33
+2025-05-14 01:35:28,726 - INFO - 
+Epoch 7/50
+2025-05-14 01:36:31,602 - INFO - Auto-saved checkpoint at batch 16
+2025-05-14 01:41:31,515 - INFO - Auto-saved checkpoint at batch 134
+2025-05-14 01:46:33,815 - INFO - Auto-saved checkpoint at batch 253
+2025-05-14 01:51:34,689 - INFO - Auto-saved checkpoint at batch 376
+2025-05-14 01:56:37,519 - INFO - Auto-saved checkpoint at batch 499
+2025-05-14 02:00:19,716 - INFO - New best model saved with accuracy: 0.6691
+2025-05-14 02:00:19,718 - INFO - 
+Epoch 7 Summary:
+2025-05-14 02:00:19,718 - INFO - Time taken: 1490.0 seconds
+2025-05-14 02:00:19,718 - INFO - Training accuracy: 0.7807
+2025-05-14 02:00:19,720 - INFO - Validation accuracy: 0.6691
+2025-05-14 02:00:19,720 - INFO - Best validation accuracy so far: 0.6691
+2025-05-14 02:00:19,720 - INFO - Estimated time remaining: 17:27:18
+2025-05-14 02:00:19,722 - INFO - Estimated completion time: 2025-05-14 19:27:37
+2025-05-14 02:00:23,176 - INFO - 
+Epoch 8/50
+2025-05-14 02:01:38,599 - INFO - Auto-saved checkpoint at batch 24
+2025-05-14 02:06:38,938 - INFO - Auto-saved checkpoint at batch 144
+2025-05-14 02:11:39,804 - INFO - Auto-saved checkpoint at batch 261
+2025-05-14 02:16:40,326 - INFO - Auto-saved checkpoint at batch 373
+2025-05-14 02:21:40,239 - INFO - Auto-saved checkpoint at batch 496
+2025-05-14 02:25:23,138 - INFO - New best model saved with accuracy: 0.6841
+2025-05-14 02:25:23,143 - INFO - 
+Epoch 8 Summary:
+2025-05-14 02:25:23,143 - INFO - Time taken: 1498.9 seconds
+2025-05-14 02:25:23,144 - INFO - Training accuracy: 0.7976
+2025-05-14 02:25:23,144 - INFO - Validation accuracy: 0.6841
+2025-05-14 02:25:23,144 - INFO - Best validation accuracy so far: 0.6841
+2025-05-14 02:25:23,145 - INFO - Estimated time remaining: 17:06:13
+2025-05-14 02:25:23,146 - INFO - Estimated completion time: 2025-05-14 19:31:36
+2025-05-14 02:25:26,893 - INFO - 
+Epoch 9/50
+2025-05-14 02:26:41,617 - INFO - Auto-saved checkpoint at batch 22
+2025-05-14 02:31:42,427 - INFO - Auto-saved checkpoint at batch 144
+2025-05-14 02:36:42,220 - INFO - Auto-saved checkpoint at batch 266
+2025-05-14 02:41:43,111 - INFO - Auto-saved checkpoint at batch 385
+2025-05-14 02:46:45,381 - INFO - Auto-saved checkpoint at batch 505
+2025-05-14 02:50:11,379 - INFO - 
+Epoch 9 Summary:
+2025-05-14 02:50:11,388 - INFO - Time taken: 1484.5 seconds
+2025-05-14 02:50:11,388 - INFO - Training accuracy: 0.8105
+2025-05-14 02:50:11,388 - INFO - Validation accuracy: 0.6031
+2025-05-14 02:50:11,390 - INFO - Best validation accuracy so far: 0.6841
+2025-05-14 02:50:11,390 - INFO - Estimated time remaining: 16:43:11
+2025-05-14 02:50:11,391 - INFO - Estimated completion time: 2025-05-14 19:33:22
+2025-05-14 02:50:15,849 - INFO - 
+Epoch 10/50
+2025-05-14 02:51:47,405 - INFO - Auto-saved checkpoint at batch 27
+2025-05-14 02:56:47,515 - INFO - Auto-saved checkpoint at batch 143
+2025-05-14 03:01:47,557 - INFO - Auto-saved checkpoint at batch 261
+2025-05-14 03:06:47,865 - INFO - Auto-saved checkpoint at batch 379
+2025-05-14 03:11:49,862 - INFO - Auto-saved checkpoint at batch 498
+2025-05-14 03:15:36,498 - INFO - 
+Epoch 10 Summary:
+2025-05-14 03:15:36,506 - INFO - Time taken: 1520.6 seconds
+2025-05-14 03:15:36,506 - INFO - Training accuracy: 0.8219
+2025-05-14 03:15:36,507 - INFO - Validation accuracy: 0.4813
+2025-05-14 03:15:36,507 - INFO - Best validation accuracy so far: 0.6841
+2025-05-14 03:15:36,507 - INFO - Estimated time remaining: 16:22:13
+2025-05-14 03:15:36,510 - INFO - Estimated completion time: 2025-05-14 19:37:49
+2025-05-14 03:15:43,862 - INFO - 
+Epoch 11/50
+2025-05-14 03:16:51,546 - INFO - Auto-saved checkpoint at batch 18
+2025-05-14 03:21:53,899 - INFO - Auto-saved checkpoint at batch 134
+2025-05-14 03:26:54,235 - INFO - Auto-saved checkpoint at batch 248
+2025-05-14 03:31:54,389 - INFO - Auto-saved checkpoint at batch 366
+2025-05-14 03:36:54,632 - INFO - Auto-saved checkpoint at batch 486
+2025-05-14 03:41:08,890 - INFO - New best model saved with accuracy: 0.7128
+2025-05-14 03:41:08,897 - INFO - 
+Epoch 11 Summary:
+2025-05-14 03:41:08,898 - INFO - Time taken: 1523.9 seconds
+2025-05-14 03:41:08,898 - INFO - Training accuracy: 0.8371
+2025-05-14 03:41:08,898 - INFO - Validation accuracy: 0.7128
+2025-05-14 03:41:08,899 - INFO - Best validation accuracy so far: 0.7128
+2025-05-14 03:41:08,899 - INFO - Estimated time remaining: 16:00:39
+2025-05-14 03:41:08,900 - INFO - Estimated completion time: 2025-05-14 19:41:47
+2025-05-14 03:41:12,887 - INFO - 
+Epoch 12/50
+2025-05-14 03:41:57,322 - INFO - Auto-saved checkpoint at batch 8
+2025-05-14 03:46:57,166 - INFO - Auto-saved checkpoint at batch 127
+2025-05-14 03:51:57,521 - INFO - Auto-saved checkpoint at batch 246
+2025-05-14 03:56:58,605 - INFO - Auto-saved checkpoint at batch 364
+2025-05-14 04:01:58,723 - INFO - Auto-saved checkpoint at batch 482
+2025-05-14 04:06:23,378 - INFO - 
+Epoch 12 Summary:
+2025-05-14 04:06:23,385 - INFO - Time taken: 1510.5 seconds
+2025-05-14 04:06:23,385 - INFO - Training accuracy: 0.8565
+2025-05-14 04:06:23,385 - INFO - Validation accuracy: 0.6331
+2025-05-14 04:06:23,386 - INFO - Best validation accuracy so far: 0.7128
+2025-05-14 04:06:23,386 - INFO - Estimated time remaining: 15:37:44
+2025-05-14 04:06:23,389 - INFO - Estimated completion time: 2025-05-14 19:44:07
+2025-05-14 04:06:28,621 - INFO - 
+Epoch 13/50
+2025-05-14 04:06:59,760 - INFO - Auto-saved checkpoint at batch 3
+2025-05-14 04:11:59,885 - INFO - Auto-saved checkpoint at batch 121
+2025-05-14 04:17:01,635 - INFO - Auto-saved checkpoint at batch 240
+2025-05-14 04:22:03,991 - INFO - Auto-saved checkpoint at batch 359
+2025-05-14 04:27:05,961 - INFO - Auto-saved checkpoint at batch 474
+2025-05-14 04:31:49,941 - INFO - 
+Epoch 13 Summary:
+2025-05-14 04:31:49,949 - INFO - Time taken: 1521.3 seconds
+2025-05-14 04:31:49,950 - INFO - Training accuracy: 0.8633
+2025-05-14 04:31:49,950 - INFO - Validation accuracy: 0.3837
+2025-05-14 04:31:49,950 - INFO - Best validation accuracy so far: 0.7128
+2025-05-14 04:31:49,951 - INFO - Estimated time remaining: 15:14:59
+2025-05-14 04:31:49,954 - INFO - Estimated completion time: 2025-05-14 19:46:48
+2025-05-14 04:31:57,205 - INFO - 
+Epoch 14/50
+2025-05-14 04:32:18,523 - INFO - Auto-saved checkpoint at batch 0
+2025-05-14 04:37:20,484 - INFO - Auto-saved checkpoint at batch 118
+2025-05-14 04:42:20,972 - INFO - Auto-saved checkpoint at batch 236
+2025-05-14 04:47:22,667 - INFO - Auto-saved checkpoint at batch 356
+2025-05-14 04:52:24,264 - INFO - Auto-saved checkpoint at batch 476
+2025-05-14 04:57:05,171 - INFO - 
+Epoch 14 Summary:
+2025-05-14 04:57:05,176 - INFO - Time taken: 1508.0 seconds
+2025-05-14 04:57:05,178 - INFO - Training accuracy: 0.8733
+2025-05-14 04:57:05,178 - INFO - Validation accuracy: 0.6647
+2025-05-14 04:57:05,178 - INFO - Best validation accuracy so far: 0.7128
+2025-05-14 04:57:05,178 - INFO - Estimated time remaining: 14:51:18
+2025-05-14 04:57:05,180 - INFO - Estimated completion time: 2025-05-14 19:48:23
+2025-05-14 04:57:11,559 - INFO - 
+Epoch 15/50
+2025-05-14 04:57:32,059 - INFO - Auto-saved checkpoint at batch 0
+2025-05-14 05:02:34,178 - INFO - Auto-saved checkpoint at batch 119
+2025-05-14 05:07:35,151 - INFO - Auto-saved checkpoint at batch 238
+2025-05-14 05:12:35,907 - INFO - Auto-saved checkpoint at batch 354
+2025-05-14 05:17:38,230 - INFO - Auto-saved checkpoint at batch 473
+2025-05-14 05:22:28,941 - INFO - New best model saved with accuracy: 0.7507
+2025-05-14 05:22:28,946 - INFO - 
+Epoch 15 Summary:
+2025-05-14 05:22:28,946 - INFO - Time taken: 1516.4 seconds
+2025-05-14 05:22:28,947 - INFO - Training accuracy: 0.8877
+2025-05-14 05:22:28,947 - INFO - Validation accuracy: 0.7507
+2025-05-14 05:22:28,947 - INFO - Best validation accuracy so far: 0.7507
+2025-05-14 05:22:28,948 - INFO - Estimated time remaining: 14:27:45
+2025-05-14 05:22:28,949 - INFO - Estimated completion time: 2025-05-14 19:50:13
+2025-05-14 05:22:33,337 - INFO - 
+Epoch 16/50
+2025-05-14 05:22:56,027 - INFO - Auto-saved checkpoint at batch 0
+2025-05-14 05:27:58,183 - INFO - Auto-saved checkpoint at batch 114
+2025-05-14 05:32:58,445 - INFO - Auto-saved checkpoint at batch 227
+2025-05-14 05:37:59,663 - INFO - Auto-saved checkpoint at batch 342
+2025-05-14 05:43:01,511 - INFO - Auto-saved checkpoint at batch 453
+2025-05-14 05:49:08,498 - INFO - New best model saved with accuracy: 0.7520
+2025-05-14 05:49:08,506 - INFO - 
+Epoch 16 Summary:
+2025-05-14 05:49:08,506 - INFO - Time taken: 1593.7 seconds
+2025-05-14 05:49:08,507 - INFO - Training accuracy: 0.8951
+2025-05-14 05:49:08,507 - INFO - Validation accuracy: 0.7520
+2025-05-14 05:49:08,507 - INFO - Best validation accuracy so far: 0.7520
+2025-05-14 05:49:08,507 - INFO - Estimated time remaining: 14:06:43
+2025-05-14 05:49:08,508 - INFO - Estimated completion time: 2025-05-14 19:55:51
+2025-05-14 05:49:12,697 - INFO - 
+Epoch 17/50
+2025-05-14 05:49:41,057 - INFO - Auto-saved checkpoint at batch 0
+2025-05-14 05:54:41,112 - INFO - Auto-saved checkpoint at batch 115
+2025-05-14 05:59:40,804 - INFO - Auto-saved checkpoint at batch 237
+2025-05-14 06:04:41,463 - INFO - Auto-saved checkpoint at batch 359
+2025-05-14 06:09:43,169 - INFO - Auto-saved checkpoint at batch 478
+2025-05-14 06:14:24,010 - INFO - 
+Epoch 17 Summary:
+2025-05-14 06:14:24,019 - INFO - Time taken: 1511.3 seconds
+2025-05-14 06:14:24,019 - INFO - Training accuracy: 0.9046
+2025-05-14 06:14:24,020 - INFO - Validation accuracy: 0.6257
+2025-05-14 06:14:24,020 - INFO - Best validation accuracy so far: 0.7520
+2025-05-14 06:14:24,022 - INFO - Estimated time remaining: 13:42:21
+2025-05-14 06:14:24,026 - INFO - Estimated completion time: 2025-05-14 19:56:45
+2025-05-14 06:14:30,978 - INFO - 
+Epoch 18/50
+2025-05-14 06:14:50,094 - INFO - Auto-saved checkpoint at batch 0
+2025-05-14 06:19:50,352 - INFO - Auto-saved checkpoint at batch 120
+2025-05-14 06:24:54,848 - INFO - Auto-saved checkpoint at batch 237
+2025-05-14 06:29:54,375 - INFO - Auto-saved checkpoint at batch 349
+2025-05-14 06:34:54,952 - INFO - Auto-saved checkpoint at batch 464
+2025-05-14 06:39:55,705 - INFO - New best model saved with accuracy: 0.7901
+2025-05-14 06:39:55,711 - INFO - 
+Epoch 18 Summary:
+2025-05-14 06:39:55,711 - INFO - Time taken: 1523.7 seconds
+2025-05-14 06:39:55,711 - INFO - Training accuracy: 0.9045
+2025-05-14 06:39:55,711 - INFO - Validation accuracy: 0.7901
+2025-05-14 06:39:55,712 - INFO - Best validation accuracy so far: 0.7901
+2025-05-14 06:39:55,712 - INFO - Estimated time remaining: 13:18:17
+2025-05-14 06:39:55,713 - INFO - Estimated completion time: 2025-05-14 19:58:12
+2025-05-14 06:39:59,154 - INFO - 
+Epoch 19/50
+2025-05-14 06:40:13,923 - INFO - Auto-saved checkpoint at batch 0
+2025-05-14 06:45:14,668 - INFO - Auto-saved checkpoint at batch 118
+2025-05-14 06:50:14,321 - INFO - Auto-saved checkpoint at batch 188
+2025-05-14 06:55:16,363 - INFO - Auto-saved checkpoint at batch 309
+2025-05-14 07:00:17,192 - INFO - Auto-saved checkpoint at batch 427
+2025-05-14 07:05:19,015 - INFO - Auto-saved checkpoint at batch 541
+2025-05-14 07:07:09,865 - INFO - 
+Epoch 19 Summary:
+2025-05-14 07:07:09,866 - INFO - Time taken: 1630.7 seconds
+2025-05-14 07:07:09,866 - INFO - Training accuracy: 0.9099
+2025-05-14 07:07:09,867 - INFO - Validation accuracy: 0.7804
+2025-05-14 07:07:09,867 - INFO - Best validation accuracy so far: 0.7901
+2025-05-14 07:07:09,867 - INFO - Estimated time remaining: 12:56:59
+2025-05-14 07:07:09,869 - INFO - Estimated completion time: 2025-05-14 20:04:08
+2025-05-14 07:07:13,128 - INFO - 
+Epoch 20/50
+2025-05-14 07:10:20,551 - INFO - Auto-saved checkpoint at batch 68
+2025-05-14 07:15:20,565 - INFO - Auto-saved checkpoint at batch 189
+2025-05-14 07:20:22,032 - INFO - Auto-saved checkpoint at batch 311
+2025-05-14 07:25:23,330 - INFO - Auto-saved checkpoint at batch 434
+2025-05-14 08:43:05,078 - INFO - Starting model training...
+2025-05-14 08:43:05,079 - INFO - 
+=== Starting Model Training ===
+2025-05-14 08:43:05,112 - INFO - 
+Training on classes: ['clear_skin', 'dermatitis', 'melanoma', 'not_skin_image']
+2025-05-14 08:43:05,113 - INFO - 
+Found existing checkpoint. Resuming training...
+2025-05-14 08:43:05,501 - WARNING - From C:\Users\sivar\AppData\Local\Programs\Python\Python310\lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2025-05-14 08:43:06,017 - WARNING - From C:\Users\sivar\AppData\Local\Programs\Python\Python310\lib\site-packages\keras\src\layers\normalization\batch_normalization.py:979: The name tf.nn.fused_batch_norm is deprecated. Please use tf.compat.v1.nn.fused_batch_norm instead.
+
+2025-05-14 08:43:10,331 - INFO - Resuming from epoch 19
+2025-05-14 08:43:10,332 - INFO - 
+Setting up data generators...
+2025-05-14 08:43:10,333 - INFO - Loading training data...
+2025-05-14 08:43:10,919 - INFO - Loading validation data...
+2025-05-14 08:43:11,059 - INFO - 
+Dataset Statistics:
+2025-05-14 08:43:11,060 - INFO - Training samples: 17709
+2025-05-14 08:43:11,060 - INFO - Validation samples: 3802
+2025-05-14 08:43:11,711 - INFO - 
+=== Training Started ===
+2025-05-14 08:43:11,712 - INFO - Start time: 2025-05-14 08:43:11
+2025-05-14 08:43:11,712 - INFO - Total epochs: 50
+2025-05-14 08:43:11,712 - INFO - Batch size: 32
+2025-05-14 08:43:11,713 - INFO - Image size: (160, 160)
+2025-05-14 08:43:11,713 - INFO - Expected completion time: 2025-05-14 16:43:11
+2025-05-14 08:43:11,872 - INFO - 
+Epoch 20/50
+2025-05-14 08:43:13,328 - WARNING - From C:\Users\sivar\AppData\Local\Programs\Python\Python310\lib\site-packages\keras\src\utils\tf_utils.py:492: The name tf.ragged.RaggedTensorValue is deprecated. Please use tf.compat.v1.ragged.RaggedTensorValue instead.
+
+2025-05-14 08:48:14,181 - INFO - Auto-saved checkpoint at batch 135
+2025-05-14 08:53:14,627 - INFO - Auto-saved checkpoint at batch 216
+2025-05-14 08:58:17,010 - INFO - Auto-saved checkpoint at batch 358
+2025-05-14 09:03:17,586 - INFO - Auto-saved checkpoint at batch 499
+2025-05-14 09:06:30,987 - INFO - New best model saved with accuracy: 0.5839
+2025-05-14 09:06:30,990 - INFO - 
+Epoch 20 Summary:
+2025-05-14 09:06:30,990 - INFO - Time taken: 1398.4 seconds
+2025-05-14 09:06:30,990 - INFO - Training accuracy: 0.9183
+2025-05-14 09:06:30,991 - INFO - Validation accuracy: 0.5839
+2025-05-14 09:06:30,991 - INFO - Best validation accuracy so far: 0.5839
+2025-05-14 09:06:30,991 - INFO - Estimated time remaining: 11:39:12
+2025-05-14 09:06:30,992 - INFO - Estimated completion time: 2025-05-14 20:45:42
+2025-05-14 09:06:33,770 - INFO - 
+Epoch 21/50
+2025-05-14 09:08:18,392 - INFO - Auto-saved checkpoint at batch 42
+2025-05-14 09:13:19,043 - INFO - Auto-saved checkpoint at batch 179
+2025-05-14 09:18:19,566 - INFO - Auto-saved checkpoint at batch 317
+2025-05-14 10:00:38,629 - INFO - Auto-saved checkpoint at batch 383
+2025-05-14 10:05:39,084 - INFO - Auto-saved checkpoint at batch 509
+2025-05-14 10:08:24,420 - INFO - New best model saved with accuracy: 0.6720
+2025-05-14 10:08:24,426 - INFO - 
+Epoch 21 Summary:
+2025-05-14 10:08:24,427 - INFO - Time taken: 3709.9 seconds
+2025-05-14 10:08:24,428 - INFO - Training accuracy: 0.9212
+2025-05-14 10:08:24,429 - INFO - Validation accuracy: 0.6720
+2025-05-14 10:08:24,429 - INFO - Best validation accuracy so far: 0.6720
+2025-05-14 10:08:24,430 - INFO - Estimated time remaining: 20:34:30
+2025-05-14 10:08:24,432 - INFO - Estimated completion time: 2025-05-15 06:42:54
+2025-05-14 10:08:28,223 - INFO - 
+Epoch 22/50
+2025-05-14 10:10:39,889 - INFO - Auto-saved checkpoint at batch 55
+2025-05-14 10:15:40,277 - INFO - Auto-saved checkpoint at batch 194
+2025-05-14 10:20:40,392 - INFO - Auto-saved checkpoint at batch 334
+2025-05-14 10:25:41,395 - INFO - Auto-saved checkpoint at batch 475
+2025-05-14 10:29:37,413 - INFO - 
+Epoch 22 Summary:
+2025-05-14 10:29:37,413 - INFO - Time taken: 1269.2 seconds
+2025-05-14 10:29:37,414 - INFO - Training accuracy: 0.9251
+2025-05-14 10:29:37,414 - INFO - Validation accuracy: 0.6312
+2025-05-14 10:29:37,414 - INFO - Best validation accuracy so far: 0.6720
+2025-05-14 10:29:37,415 - INFO - Estimated time remaining: 16:32:03
+2025-05-14 10:29:37,416 - INFO - Estimated completion time: 2025-05-15 03:01:40
+2025-05-14 10:29:41,687 - INFO - 
+Epoch 23/50
+2025-05-14 10:30:42,684 - INFO - Auto-saved checkpoint at batch 23
+2025-05-14 10:35:43,234 - INFO - Auto-saved checkpoint at batch 162
+2025-05-14 11:38:17,684 - INFO - Starting model training...
+2025-05-14 11:38:17,686 - INFO - 
+=== Starting Model Training ===
+2025-05-14 11:38:17,713 - INFO - 
+Training on classes: ['clear_skin', 'dermatitis', 'melanoma', 'not_skin_image']
+2025-05-14 11:38:17,714 - INFO - 
+Found existing checkpoint. Resuming training...
+2025-05-14 11:38:18,088 - WARNING - From C:\Users\sivar\AppData\Local\Programs\Python\Python310\lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2025-05-14 11:38:18,705 - WARNING - From C:\Users\sivar\AppData\Local\Programs\Python\Python310\lib\site-packages\keras\src\layers\normalization\batch_normalization.py:979: The name tf.nn.fused_batch_norm is deprecated. Please use tf.compat.v1.nn.fused_batch_norm instead.
+
+2025-05-14 11:38:23,202 - INFO - Resuming from epoch 22
+2025-05-14 11:38:23,203 - INFO - 
+Setting up data generators...
+2025-05-14 11:38:23,205 - INFO - Loading training data...
+2025-05-14 11:38:23,790 - INFO - Loading validation data...
+2025-05-14 11:38:23,936 - INFO - 
+Dataset Statistics:
+2025-05-14 11:38:23,937 - INFO - Training samples: 17709
+2025-05-14 11:38:23,937 - INFO - Validation samples: 3802
+2025-05-14 11:38:24,538 - INFO - 
+=== Training Started ===
+2025-05-14 11:38:24,539 - INFO - Start time: 2025-05-14 11:38:24
+2025-05-14 11:38:24,539 - INFO - Total epochs: 50
+2025-05-14 11:38:24,540 - INFO - Batch size: 32
+2025-05-14 11:38:24,540 - INFO - Image size: (160, 160)
+2025-05-14 11:38:24,541 - INFO - Expected completion time: 2025-05-14 19:38:24
+2025-05-14 11:38:24,756 - INFO - 
+Epoch 23/50
+2025-05-14 11:38:26,056 - WARNING - From C:\Users\sivar\AppData\Local\Programs\Python\Python310\lib\site-packages\keras\src\utils\tf_utils.py:492: The name tf.ragged.RaggedTensorValue is deprecated. Please use tf.compat.v1.ragged.RaggedTensorValue instead.
+
+2025-05-14 11:43:26,892 - INFO - Auto-saved checkpoint at batch 136
+2025-05-14 11:48:27,202 - INFO - Auto-saved checkpoint at batch 286
+2025-05-14 11:53:28,319 - INFO - Auto-saved checkpoint at batch 435
+2025-05-14 11:58:41,575 - INFO - New best model saved with accuracy: 0.5513
+2025-05-14 11:58:41,577 - INFO - 
+Epoch 23 Summary:
+2025-05-14 11:58:41,578 - INFO - Time taken: 1216.1 seconds
+2025-05-14 11:58:41,578 - INFO - Training accuracy: 0.9265
+2025-05-14 11:58:41,578 - INFO - Validation accuracy: 0.5513
+2025-05-14 11:58:41,578 - INFO - Best validation accuracy so far: 0.5513
+2025-05-14 11:58:41,578 - INFO - Estimated time remaining: 9:07:13
+2025-05-14 11:58:41,580 - INFO - Estimated completion time: 2025-05-14 21:05:54
+2025-05-14 11:58:45,520 - INFO - 
+Epoch 24/50
+2025-05-14 11:58:57,980 - INFO - Auto-saved checkpoint at batch 0
+2025-05-14 12:03:58,539 - INFO - Auto-saved checkpoint at batch 141
+2025-05-14 12:15:36,309 - INFO - Starting model training...
+2025-05-14 12:15:36,310 - INFO - 
+=== Starting Model Training ===
+2025-05-14 12:15:36,332 - INFO - 
+Training on classes: ['clear_skin', 'dermatitis', 'melanoma', 'not_skin_image']
+2025-05-14 12:15:36,333 - INFO - 
+Found existing checkpoint. Resuming training...
+2025-05-14 12:15:36,580 - WARNING - From C:\Users\sivar\AppData\Local\Programs\Python\Python310\lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2025-05-14 12:15:37,016 - WARNING - From C:\Users\sivar\AppData\Local\Programs\Python\Python310\lib\site-packages\keras\src\layers\normalization\batch_normalization.py:979: The name tf.nn.fused_batch_norm is deprecated. Please use tf.compat.v1.nn.fused_batch_norm instead.
+
+2025-05-14 12:15:40,825 - INFO - Resuming from epoch 24
+2025-05-14 12:15:40,826 - INFO - 
+Setting up data generators...
+2025-05-14 12:15:40,827 - INFO - Loading training data...
+2025-05-14 12:15:41,353 - INFO - Loading validation data...
+2025-05-14 12:15:41,475 - INFO - 
+Dataset Statistics:
+2025-05-14 12:15:41,476 - INFO - Training samples: 17709
+2025-05-14 12:15:41,476 - INFO - Validation samples: 3802
+2025-05-14 12:15:41,948 - INFO - 
+=== Training Started ===
+2025-05-14 12:15:41,950 - INFO - Start time: 2025-05-14 12:15:41
+2025-05-14 12:15:41,950 - INFO - Total epochs: 50
+2025-05-14 12:15:41,950 - INFO - Batch size: 32
+2025-05-14 12:15:41,951 - INFO - Image size: (160, 160)
+2025-05-14 12:15:41,951 - INFO - Expected completion time: 2025-05-14 20:15:41
+2025-05-14 12:15:42,081 - INFO - 
+Epoch 25/50
+2025-05-14 12:15:43,274 - WARNING - From C:\Users\sivar\AppData\Local\Programs\Python\Python310\lib\site-packages\keras\src\utils\tf_utils.py:492: The name tf.ragged.RaggedTensorValue is deprecated. Please use tf.compat.v1.ragged.RaggedTensorValue instead.
+
+2025-05-14 12:20:43,213 - INFO - Auto-saved checkpoint at batch 125
+2025-05-14 12:25:44,143 - INFO - Auto-saved checkpoint at batch 268
+2025-05-14 12:30:45,016 - INFO - Auto-saved checkpoint at batch 416
+2025-05-14 12:36:48,016 - INFO - New best model saved with accuracy: 0.7925
+2025-05-14 12:36:48,019 - INFO - 
+Epoch 25 Summary:
+2025-05-14 12:36:48,019 - INFO - Time taken: 1265.2 seconds
+2025-05-14 12:36:48,020 - INFO - Training accuracy: 0.9245
+2025-05-14 12:36:48,020 - INFO - Validation accuracy: 0.7925
+2025-05-14 12:36:48,020 - INFO - Best validation accuracy so far: 0.7925
+2025-05-14 12:36:48,020 - INFO - Estimated time remaining: 8:47:08
+2025-05-14 12:36:48,022 - INFO - Estimated completion time: 2025-05-14 21:23:56
+2025-05-14 12:36:51,143 - INFO - 
+Epoch 26/50
+2025-05-14 12:37:06,752 - INFO - Auto-saved checkpoint at batch 0
+2025-05-14 12:42:06,851 - INFO - Auto-saved checkpoint at batch 137
+2025-05-14 12:47:08,888 - INFO - Auto-saved checkpoint at batch 277
+2025-05-14 12:52:10,824 - INFO - Auto-saved checkpoint at batch 419
+2025-05-14 12:58:07,860 - INFO - 
+Epoch 26 Summary:
+2025-05-14 12:58:07,862 - INFO - Time taken: 1276.7 seconds
+2025-05-14 12:58:07,862 - INFO - Training accuracy: 0.9342
+2025-05-14 12:58:07,863 - INFO - Validation accuracy: 0.6447
+2025-05-14 12:58:07,863 - INFO - Best validation accuracy so far: 0.7925
+2025-05-14 12:58:07,864 - INFO - Estimated time remaining: 8:28:22
+2025-05-14 12:58:07,865 - INFO - Estimated completion time: 2025-05-14 21:26:29
+2025-05-14 12:58:12,223 - INFO - 
+Epoch 27/50
+2025-05-14 12:58:23,974 - INFO - Auto-saved checkpoint at batch 0
+2025-05-14 13:03:25,600 - INFO - Auto-saved checkpoint at batch 110
+2025-05-14 13:28:32,955 - INFO - Starting model training...
+2025-05-14 13:28:32,956 - INFO - 
+=== Starting Model Training ===
+2025-05-14 13:28:32,990 - INFO - 
+Training on classes: ['clear_skin', 'dermatitis', 'melanoma', 'not_skin_image']
+2025-05-14 13:28:32,991 - INFO - 
+Found existing checkpoint. Resuming training...
+2025-05-14 13:28:33,308 - WARNING - From C:\Users\sivar\AppData\Local\Programs\Python\Python310\lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2025-05-14 13:28:33,818 - WARNING - From C:\Users\sivar\AppData\Local\Programs\Python\Python310\lib\site-packages\keras\src\layers\normalization\batch_normalization.py:979: The name tf.nn.fused_batch_norm is deprecated. Please use tf.compat.v1.nn.fused_batch_norm instead.
+
+2025-05-14 13:28:38,798 - INFO - Resuming from epoch 26
+2025-05-14 13:28:38,798 - INFO - 
+Setting up data generators...
+2025-05-14 13:28:38,799 - INFO - Loading training data...
+2025-05-14 13:28:39,382 - INFO - Loading validation data...
+2025-05-14 13:28:39,528 - INFO - 
+Dataset Statistics:
+2025-05-14 13:28:39,529 - INFO - Training samples: 17709
+2025-05-14 13:28:39,530 - INFO - Validation samples: 3802
+2025-05-14 13:28:40,104 - INFO - 
+=== Training Started ===
+2025-05-14 13:28:40,105 - INFO - Start time: 2025-05-14 13:28:40
+2025-05-14 13:28:40,105 - INFO - Total epochs: 50
+2025-05-14 13:28:40,106 - INFO - Batch size: 32
+2025-05-14 13:28:40,106 - INFO - Image size: (160, 160)
+2025-05-14 13:28:40,107 - INFO - Expected completion time: 2025-05-14 21:28:40
+2025-05-14 13:28:40,275 - INFO - 
+Epoch 27/50
+2025-05-14 13:28:41,766 - WARNING - From C:\Users\sivar\AppData\Local\Programs\Python\Python310\lib\site-packages\keras\src\utils\tf_utils.py:492: The name tf.ragged.RaggedTensorValue is deprecated. Please use tf.compat.v1.ragged.RaggedTensorValue instead.
+
+2025-05-14 13:33:42,264 - INFO - Auto-saved checkpoint at batch 133
+2025-05-14 14:00:54,660 - INFO - Auto-saved checkpoint at batch 208
+2025-05-14 14:05:55,170 - INFO - Auto-saved checkpoint at batch 357
+2025-05-14 14:10:56,608 - INFO - Auto-saved checkpoint at batch 506
+2025-05-14 14:13:44,239 - INFO - New best model saved with accuracy: 0.6796
+2025-05-14 14:13:44,242 - INFO - 
+Epoch 27 Summary:
+2025-05-14 14:13:44,242 - INFO - Time taken: 2703.3 seconds
+2025-05-14 14:13:44,243 - INFO - Training accuracy: 0.9311
+2025-05-14 14:13:44,243 - INFO - Validation accuracy: 0.6796
+2025-05-14 14:13:44,243 - INFO - Best validation accuracy so far: 0.6796
+2025-05-14 14:13:44,243 - INFO - Estimated time remaining: 17:16:16
+2025-05-14 14:13:44,244 - INFO - Estimated completion time: 2025-05-15 07:30:00
+2025-05-14 14:13:46,368 - INFO - 
+Epoch 28/50
+2025-05-14 14:15:58,416 - INFO - Auto-saved checkpoint at batch 58
+2025-05-14 14:20:58,615 - INFO - Auto-saved checkpoint at batch 201
+2025-05-14 14:25:59,748 - INFO - Auto-saved checkpoint at batch 345
+2025-05-14 14:31:00,192 - INFO - Auto-saved checkpoint at batch 488
+2025-05-14 14:34:24,817 - INFO - 
+Epoch 28 Summary:
+2025-05-14 14:34:24,818 - INFO - Time taken: 1238.4 seconds
+2025-05-14 14:34:24,818 - INFO - Training accuracy: 0.9341
+2025-05-14 14:34:24,818 - INFO - Validation accuracy: 0.5907
+2025-05-14 14:34:24,818 - INFO - Best validation accuracy so far: 0.6796
+2025-05-14 14:34:24,819 - INFO - Estimated time remaining: 12:02:39
+2025-05-14 14:34:24,820 - INFO - Estimated completion time: 2025-05-15 02:37:03
+2025-05-14 14:34:26,681 - INFO - 
+Epoch 29/50
+2025-05-14 14:36:02,035 - INFO - Auto-saved checkpoint at batch 40
+2025-05-14 14:41:03,767 - INFO - Auto-saved checkpoint at batch 182
+2025-05-14 18:59:37,179 - INFO - Starting model training...
+2025-05-14 18:59:37,179 - INFO - 
+=== Starting Model Training ===
+2025-05-14 18:59:37,207 - INFO - 
+Training on classes: ['clear_skin', 'dermatitis', 'melanoma', 'not_skin_image']
+2025-05-14 18:59:37,207 - INFO - 
+Found existing checkpoint. Resuming training...
+2025-05-14 18:59:37,439 - WARNING - From C:\Users\sivar\AppData\Local\Programs\Python\Python310\lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+2025-05-14 18:59:37,815 - WARNING - From C:\Users\sivar\AppData\Local\Programs\Python\Python310\lib\site-packages\keras\src\layers\normalization\batch_normalization.py:979: The name tf.nn.fused_batch_norm is deprecated. Please use tf.compat.v1.nn.fused_batch_norm instead.
+
+2025-05-14 18:59:41,623 - INFO - Resuming from epoch 28
+2025-05-14 18:59:41,625 - INFO - 
+Setting up data generators...
+2025-05-14 18:59:41,626 - INFO - Loading training data...
+2025-05-14 18:59:42,167 - INFO - Loading validation data...
+2025-05-14 18:59:42,288 - INFO - 
+Dataset Statistics:
+2025-05-14 18:59:42,289 - INFO - Training samples: 17709
+2025-05-14 18:59:42,289 - INFO - Validation samples: 3802
+2025-05-14 18:59:42,758 - INFO - 
+=== Training Started ===
+2025-05-14 18:59:42,758 - INFO - Start time: 2025-05-14 18:59:42
+2025-05-14 18:59:42,758 - INFO - Total epochs: 50
+2025-05-14 18:59:42,758 - INFO - Batch size: 32
+2025-05-14 18:59:42,758 - INFO - Image size: (160, 160)
+2025-05-14 18:59:42,760 - INFO - Expected completion time: 2025-05-15 02:59:42
+2025-05-14 18:59:42,890 - INFO - 
+Epoch 29/50
+2025-05-14 18:59:43,999 - WARNING - From C:\Users\sivar\AppData\Local\Programs\Python\Python310\lib\site-packages\keras\src\utils\tf_utils.py:492: The name tf.ragged.RaggedTensorValue is deprecated. Please use tf.compat.v1.ragged.RaggedTensorValue instead.
+
+2025-05-14 19:04:46,428 - INFO - Auto-saved checkpoint at batch 135
+2025-05-14 19:09:44,459 - INFO - Auto-saved checkpoint at batch 279
+2025-05-14 19:14:45,737 - INFO - Auto-saved checkpoint at batch 429
+2025-05-14 19:20:06,301 - INFO - New best model saved with accuracy: 0.6704
+2025-05-14 19:20:06,303 - INFO - 
+Epoch 29 Summary:
+2025-05-14 19:20:06,303 - INFO - Time taken: 1222.9 seconds
+2025-05-14 19:20:06,303 - INFO - Training accuracy: 0.9365
+2025-05-14 19:20:06,303 - INFO - Validation accuracy: 0.6704
+2025-05-14 19:20:06,304 - INFO - Best validation accuracy so far: 0.6704
+2025-05-14 19:20:06,304 - INFO - Estimated time remaining: 7:08:00
+2025-05-14 19:20:06,304 - INFO - Estimated completion time: 2025-05-15 02:28:06
+2025-05-14 19:20:08,552 - INFO - 
+Epoch 30/50
+2025-05-14 19:20:19,019 - INFO - Auto-saved checkpoint at batch 0
+2025-05-14 19:25:19,346 - INFO - Auto-saved checkpoint at batch 143
+2025-05-14 19:30:20,199 - INFO - Auto-saved checkpoint at batch 286
+2025-05-14 19:35:21,572 - INFO - Auto-saved checkpoint at batch 430
+2025-05-14 19:40:46,277 - INFO - 
+Epoch 30 Summary:
+2025-05-14 19:40:46,279 - INFO - Time taken: 1237.7 seconds
+2025-05-14 19:40:46,279 - INFO - Training accuracy: 0.9411
+2025-05-14 19:40:46,279 - INFO - Validation accuracy: 0.6344
+2025-05-14 19:40:46,280 - INFO - Best validation accuracy so far: 0.6704
+2025-05-14 19:40:46,280 - INFO - Estimated time remaining: 6:50:05
+2025-05-14 19:40:46,281 - INFO - Estimated completion time: 2025-05-15 02:30:51
+2025-05-14 19:40:48,020 - INFO - 
+Epoch 31/50
+2025-05-14 19:40:58,523 - INFO - Auto-saved checkpoint at batch 0
+2025-05-14 19:45:58,744 - INFO - Auto-saved checkpoint at batch 141
+2025-05-14 19:51:00,243 - INFO - Auto-saved checkpoint at batch 284
+2025-05-14 19:56:02,059 - INFO - Auto-saved checkpoint at batch 428
+2025-05-14 20:01:36,120 - INFO - 
+Epoch 31 Summary:
+2025-05-14 20:01:36,120 - INFO - Time taken: 1248.1 seconds
+2025-05-14 20:01:36,121 - INFO - Training accuracy: 0.9430
+2025-05-14 20:01:36,121 - INFO - Validation accuracy: 0.6078
+2025-05-14 20:01:36,122 - INFO - Best validation accuracy so far: 0.6704
+2025-05-14 20:01:36,122 - INFO - Estimated time remaining: 6:31:28
+2025-05-14 20:01:36,125 - INFO - Estimated completion time: 2025-05-15 02:33:04
+2025-05-14 20:01:38,937 - INFO - 
+Epoch 32/50
+2025-05-14 20:01:53,387 - INFO - Auto-saved checkpoint at batch 0
+2025-05-14 20:06:54,361 - INFO - Auto-saved checkpoint at batch 139
+2025-05-14 20:11:55,488 - INFO - Auto-saved checkpoint at batch 280
+2025-05-14 20:16:57,526 - INFO - Auto-saved checkpoint at batch 423
+2025-05-14 20:22:42,079 - INFO - New best model saved with accuracy: 0.7328
+2025-05-14 20:22:42,082 - INFO - 
+Epoch 32 Summary:
+2025-05-14 20:22:42,082 - INFO - Time taken: 1262.5 seconds
+2025-05-14 20:22:42,082 - INFO - Training accuracy: 0.9434
+2025-05-14 20:22:42,083 - INFO - Validation accuracy: 0.7328
+2025-05-14 20:22:42,083 - INFO - Best validation accuracy so far: 0.7328
+2025-05-14 20:22:42,083 - INFO - Estimated time remaining: 6:12:50
+2025-05-14 20:22:42,086 - INFO - Estimated completion time: 2025-05-15 02:35:32
+2025-05-14 20:22:44,118 - INFO - 
+Epoch 33/50
+2025-05-14 20:22:54,646 - INFO - Auto-saved checkpoint at batch 0
+2025-05-14 20:27:55,274 - INFO - Auto-saved checkpoint at batch 139
+2025-05-14 20:32:57,225 - INFO - Auto-saved checkpoint at batch 279
+2025-05-14 20:37:58,751 - INFO - Auto-saved checkpoint at batch 419
+2025-05-14 20:43:58,050 - INFO - New best model saved with accuracy: 0.7422
+2025-05-14 20:43:58,052 - INFO - 
+Epoch 33 Summary:
+2025-05-14 20:43:58,053 - INFO - Time taken: 1273.3 seconds
+2025-05-14 20:43:58,053 - INFO - Training accuracy: 0.9474
+2025-05-14 20:43:58,053 - INFO - Validation accuracy: 0.7422
+2025-05-14 20:43:58,054 - INFO - Best validation accuracy so far: 0.7422
+2025-05-14 20:43:58,054 - INFO - Estimated time remaining: 5:53:51
+2025-05-14 20:43:58,055 - INFO - Estimated completion time: 2025-05-15 02:37:49
+2025-05-14 20:44:00,091 - INFO - 
+Epoch 34/50
+2025-05-14 20:44:10,646 - INFO - Auto-saved checkpoint at batch 0
+2025-05-14 20:49:11,437 - INFO - Auto-saved checkpoint at batch 138
+2025-05-14 20:54:12,868 - INFO - Auto-saved checkpoint at batch 277
+2025-05-14 20:59:14,405 - INFO - Auto-saved checkpoint at batch 413
+2025-05-14 21:04:15,084 - INFO - Auto-saved checkpoint at batch 553
+2025-05-14 21:05:23,947 - INFO - 
+Epoch 34 Summary:
+2025-05-14 21:05:23,947 - INFO - Time taken: 1283.9 seconds
+2025-05-14 21:05:23,948 - INFO - Training accuracy: 0.9493
+2025-05-14 21:05:23,948 - INFO - Validation accuracy: 0.6762
+2025-05-14 21:05:23,948 - INFO - Best validation accuracy so far: 0.7422
+2025-05-14 21:05:23,948 - INFO - Estimated time remaining: 5:34:35
+2025-05-14 21:05:23,950 - INFO - Estimated completion time: 2025-05-15 02:39:58
+2025-05-14 21:05:26,207 - INFO - 
+Epoch 35/50
+2025-05-14 21:09:16,413 - INFO - Auto-saved checkpoint at batch 91
+2025-05-14 21:14:16,366 - INFO - Auto-saved checkpoint at batch 229
+2025-05-14 21:19:17,315 - INFO - Auto-saved checkpoint at batch 368
+2025-05-14 21:24:17,885 - INFO - Auto-saved checkpoint at batch 507
+2025-05-14 21:27:05,475 - INFO - 
+Epoch 35 Summary:
+2025-05-14 21:27:05,475 - INFO - Time taken: 1299.3 seconds
+2025-05-14 21:27:05,475 - INFO - Training accuracy: 0.9529
+2025-05-14 21:27:05,475 - INFO - Validation accuracy: 0.7391
+2025-05-14 21:27:05,476 - INFO - Best validation accuracy so far: 0.7422
+2025-05-14 21:27:05,476 - INFO - Estimated time remaining: 5:15:16
+2025-05-14 21:27:05,476 - INFO - Estimated completion time: 2025-05-15 02:42:21
+2025-05-14 21:27:06,886 - INFO - 
+Epoch 36/50
+2025-05-14 21:29:19,611 - INFO - Auto-saved checkpoint at batch 55
+2025-05-14 21:34:20,864 - INFO - Auto-saved checkpoint at batch 194
+2025-05-14 21:39:22,723 - INFO - Auto-saved checkpoint at batch 333
+2025-05-14 21:44:22,863 - INFO - Auto-saved checkpoint at batch 471
+2025-05-14 21:48:30,574 - INFO - New best model saved with accuracy: 0.8104
+2025-05-14 21:48:30,576 - INFO - 
+Epoch 36 Summary:
+2025-05-14 21:48:30,576 - INFO - Time taken: 1283.0 seconds
+2025-05-14 21:48:30,576 - INFO - Training accuracy: 0.9505
+2025-05-14 21:48:30,576 - INFO - Validation accuracy: 0.8104
+2025-05-14 21:48:30,576 - INFO - Best validation accuracy so far: 0.8104
+2025-05-14 21:48:30,577 - INFO - Estimated time remaining: 4:54:53
+2025-05-14 21:48:30,577 - INFO - Estimated completion time: 2025-05-15 02:43:23
+2025-05-14 21:48:32,105 - INFO - 
+Epoch 37/50
+2025-05-14 21:49:24,622 - INFO - Auto-saved checkpoint at batch 18
+2025-05-14 21:54:25,103 - INFO - Auto-saved checkpoint at batch 154
+2025-05-14 21:59:26,941 - INFO - Auto-saved checkpoint at batch 292
+2025-05-14 22:04:27,327 - INFO - Auto-saved checkpoint at batch 430
+2025-05-14 22:10:01,971 - INFO - 
+Epoch 37 Summary:
+2025-05-14 22:10:01,971 - INFO - Time taken: 1289.9 seconds
+2025-05-14 22:10:01,972 - INFO - Training accuracy: 0.9567
+2025-05-14 22:10:01,972 - INFO - Validation accuracy: 0.6936
+2025-05-14 22:10:01,973 - INFO - Best validation accuracy so far: 0.8104
+2025-05-14 22:10:01,974 - INFO - Estimated time remaining: 4:34:27
+2025-05-14 22:10:01,975 - INFO - Estimated completion time: 2025-05-15 02:44:28
+2025-05-14 22:10:04,242 - INFO - 
+Epoch 38/50
+2025-05-14 22:10:15,380 - INFO - Auto-saved checkpoint at batch 0
+2025-05-14 22:15:16,593 - INFO - Auto-saved checkpoint at batch 137
+2025-05-14 22:20:16,819 - INFO - Auto-saved checkpoint at batch 274
+2025-05-14 22:25:17,264 - INFO - Auto-saved checkpoint at batch 412
+2025-05-14 22:30:18,651 - INFO - Auto-saved checkpoint at batch 550
+2025-05-14 22:31:35,766 - INFO - 
+Epoch 38 Summary:
+2025-05-14 22:31:35,766 - INFO - Time taken: 1291.5 seconds
+2025-05-14 22:31:35,766 - INFO - Training accuracy: 0.9578
+2025-05-14 22:31:35,768 - INFO - Validation accuracy: 0.7464
+2025-05-14 22:31:35,768 - INFO - Best validation accuracy so far: 0.8104
+2025-05-14 22:31:35,768 - INFO - Estimated time remaining: 4:13:50
+2025-05-14 22:31:35,769 - INFO - Estimated completion time: 2025-05-15 02:45:25
+2025-05-14 22:31:37,191 - INFO - 
+Epoch 39/50
+2025-05-14 22:35:19,077 - INFO - Auto-saved checkpoint at batch 96
+2025-05-14 22:40:20,781 - INFO - Auto-saved checkpoint at batch 234
+2025-05-14 22:45:20,973 - INFO - Auto-saved checkpoint at batch 371
+2025-05-14 22:50:23,060 - INFO - Auto-saved checkpoint at batch 510
+2025-05-14 22:53:04,465 - INFO - 
+Epoch 39 Summary:
+2025-05-14 22:53:04,466 - INFO - Time taken: 1287.3 seconds
+2025-05-14 22:53:04,466 - INFO - Training accuracy: 0.9586
+2025-05-14 22:53:04,467 - INFO - Validation accuracy: 0.7525
+2025-05-14 22:53:04,467 - INFO - Best validation accuracy so far: 0.8104
+2025-05-14 22:53:04,467 - INFO - Estimated time remaining: 3:52:59
+2025-05-14 22:53:04,469 - INFO - Estimated completion time: 2025-05-15 02:46:03
+2025-05-14 22:53:08,169 - INFO - 
+Epoch 40/50
+2025-05-14 22:55:23,320 - INFO - Auto-saved checkpoint at batch 56
+2025-05-14 23:00:24,842 - INFO - Auto-saved checkpoint at batch 194
+2025-05-14 23:05:26,566 - INFO - Auto-saved checkpoint at batch 331
+2025-05-14 23:10:28,133 - INFO - Auto-saved checkpoint at batch 468
+2025-05-14 23:14:44,199 - INFO - 
+Epoch 40 Summary:
+2025-05-14 23:14:44,199 - INFO - Time taken: 1296.0 seconds
+2025-05-14 23:14:44,200 - INFO - Training accuracy: 0.9625
+2025-05-14 23:14:44,200 - INFO - Validation accuracy: 0.8022
+2025-05-14 23:14:44,201 - INFO - Best validation accuracy so far: 0.8104
+2025-05-14 23:14:44,201 - INFO - Estimated time remaining: 3:32:09
+2025-05-14 23:14:44,203 - INFO - Estimated completion time: 2025-05-15 02:46:53
+2025-05-14 23:14:46,361 - INFO - 
+Epoch 41/50
+2025-05-14 23:15:28,911 - INFO - Auto-saved checkpoint at batch 14
+2025-05-14 23:20:29,955 - INFO - Auto-saved checkpoint at batch 150
+2025-05-14 23:25:30,594 - INFO - Auto-saved checkpoint at batch 287
+2025-05-14 23:30:31,894 - INFO - Auto-saved checkpoint at batch 424
+2025-05-14 23:36:24,884 - INFO - New best model saved with accuracy: 0.8169
+2025-05-14 23:36:24,886 - INFO - 
+Epoch 41 Summary:
+2025-05-14 23:36:24,886 - INFO - Time taken: 1297.9 seconds
+2025-05-14 23:36:24,886 - INFO - Training accuracy: 0.9625
+2025-05-14 23:36:24,886 - INFO - Validation accuracy: 0.8169
+2025-05-14 23:36:24,886 - INFO - Best validation accuracy so far: 0.8169
+2025-05-14 23:36:24,887 - INFO - Estimated time remaining: 3:11:13
+2025-05-14 23:36:24,887 - INFO - Estimated completion time: 2025-05-15 02:47:37
+2025-05-14 23:36:27,405 - INFO - Training completed successfully!
+2025-05-14 23:36:27,439 - INFO - Training completed successfully!
