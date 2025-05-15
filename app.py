@@ -343,6 +343,18 @@ def save_prediction(image_path, predicted_disease, confidence):
     except sqlite3.Error as e:
         st.error(f"Error saving prediction: {e}")
 
+def get_appointment_status(email):
+    conn = get_db_connection()
+    cursor = conn.cursor()
+    cursor.execute("""
+    SELECT * FROM appointments 
+    WHERE email = ? 
+    ORDER BY created_at DESC
+    """, (email,))
+    appointments = cursor.fetchall()
+    conn.close()
+    return appointments
+
 # Initialize database
 init_db()
 
@@ -467,6 +479,27 @@ elif st.session_state['page'] == "Book Appointment":
                     st.warning("Appointment booked, but there were issues sending notifications.")
             else:
                 st.error("Please fill in all fields.")
+
+    if 'appointment_submitted' in st.session_state:
+        st.subheader("Your Appointments")
+        appointments = get_appointment_status(st.session_state['appointment_submitted'])
+        
+        if not appointments:
+            st.info("No appointments found")
+        else:
+            for appointment in appointments:
+                with st.expander(f"Appointment on {appointment['date']} at {appointment['time']}"):
+                    st.write(f"**Doctor:** {appointment['doctor']}")
+                    st.write(f"**Date:** {appointment['date']}")
+                    st.write(f"**Time:** {appointment['time']}")
+                    st.write(f"**Status:** {appointment['status'].upper()}")
+                    
+                    if appointment['status'] == 'approved':
+                        st.success("Your appointment has been approved!")
+                    elif appointment['status'] == 'rejected':
+                        st.error("Your appointment has been rejected")
+                    else:
+                        st.info("Your appointment is pending approval")
 
 # FAQ Page
 elif st.session_state['page'] == "FAQ":
