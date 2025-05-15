@@ -1,8 +1,8 @@
 streamlit
-opencv-python-headless
-numpy
-Pillow
-scikit-learn
-matplotlib
 tensorflow
-sqlite3  
+numpy
+opencv-python
+openai
+requests
+Pillow
+python-dotenv
