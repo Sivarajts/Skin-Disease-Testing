@@ -21,6 +21,23 @@ def init_doctor_db():
     """)
     conn.commit()
     conn.close()
+def add_default_doctor():
+    conn = get_db_connection()
+    cursor = conn.cursor()
+    try:
+        cursor.execute("""
+        INSERT INTO doctors (username, password, name, hospital) 
+        VALUES (?, ?, ?, ?)
+        """, ("doctor", "doctor123", "Dr. John Doe", "City Hospital"))
+        conn.commit()
+    except sqlite3.IntegrityError:
+        # Username already exists
+        pass
+    finally:
+        conn.close()
+
+add_default_doctor()
+
 
 def verify_doctor(username, password):
     conn = get_db_connection()
