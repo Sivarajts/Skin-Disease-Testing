@@ -303,15 +303,20 @@ def get_chat_history():
 
 # Load the trained model
 @st.cache_resource
-def download_model_from_drive():
-    file_id = "104aRXp5pKcSIVIui2KRPkzYnb4HTILlt"
-destination = "models/final_model.h5"
+def download_model():
+    file_id = "104aRXp5pKcSIVIui2KRPkzYnb4HTILlt"  # your actual file ID
+    destination = "models/final_model.h5"
     url = f"https://drive.google.com/uc?id={file_id}"
-
+    
     if not os.path.exists(destination):
-        st.info("Downloading model from Google Drive...")
-        gdown.download(url, destination, quiet=False)
-        st.success("Download complete.")
+        print("Downloading model...")
+        response = requests.get(url, allow_redirects=True)
+        with open(destination, "wb") as f:
+            f.write(response.content)
+        print("Model downloaded.")
+    else:
+        print("Model already exists locally.")
+
 
 def load_model():
     try:
