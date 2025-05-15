@@ -303,9 +303,20 @@ def get_chat_history():
 
 # Load the trained model
 @st.cache_resource
+def download_model_from_drive():
+    file_id = "104aRXp5pKcSIVIui2KRPkzYnb4HTILlt"
+destination = "models/final_model.h5"
+    url = f"https://drive.google.com/uc?id={file_id}"
+
+    if not os.path.exists(destination):
+        st.info("Downloading model from Google Drive...")
+        gdown.download(url, destination, quiet=False)
+        st.success("Download complete.")
+
 def load_model():
     try:
-        model = tf.keras.models.load_model('models/final_model.h5')
+        download_model_from_drive()
+        model = tf.keras.models.load_model("models/final_model.h5")
         return model
     except Exception as e:
         st.error(f"Error loading model: {str(e)}")
