@@ -11,3 +11,4 @@ __pycache__/
 models/
 data/
 skin_disease.db
+.streamlit/secrets.toml
